@@ -1,19 +1,6 @@
 import { motion } from "framer-motion";
 import { SKILLS } from "../constants";
 
-const iconvarriant = (duration) => ({
-  initial: { y: -10 },
-  animate: {
-    y: [10, -10],
-    transition: {
-      duration: duration,
-      ease: "linear",
-      repeat: Infinity,
-      repeatType: "reverse",
-    },
-  },
-});
-
 const Tech = () => {
   return (
     <div className="border-b border-neutral-800 pb-4">
@@ -25,19 +12,26 @@ const Tech = () => {
       >
         Skills
       </motion.h2>
-      <div className="flex flex-wrap items-center justify-center gap-6">
-        <section className="py-5 px-4 bg-neutral-950 text-white">
-          <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 lg:text-lg text-sm text-neutral-300">
-            {SKILLS.map((skill, index) => (
-              <li
-                key={index}
-                className="bg-neutral-800 px-4 py-2 rounded hover:bg-cyan-700 transition"
-              >
-                {skill}
-              </li>
-            ))}
-          </ul>
-        </section>
+      <div className=" py-16 px-6">
+        <h2 className="text-3xl font-light text-gray-300 text-center mb-12">
+          Experience
+        </h2>
+        <div className="space-y-8">
+          {SKILLS.map((section, index) => (
+            <div key={index} className="border-l-4 border-cyan-500 pl-6">
+              <h3 className="text-lg font-bold text-white mb-2">
+                {section.category}
+              </h3>
+              <ul className="text-gray-400 space-y-2">
+                {section.skills.map((skill, idx) => (
+                  <li key={idx} className="list-disc list-inside">
+                    {skill}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

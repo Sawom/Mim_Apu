@@ -19,21 +19,47 @@ export const CONTACT = {
 
 // skills
 export const SKILLS = [
-  "User research",
-  "Wireframing",
-  "Prototyping",
-  "Interaction design",
-  "Visual design",
-  "Information architecture",
-  "Usability testing",
-  "Collaboration and teamwork",
-  "Adobe Creative Suite",
-  "Figma",
-  "Adobe XD",
-  "Illustrator",
-  "Photoshop",
-  "HTML/CSS basic",
-  "Basic video Editing",
+  {
+    category: "Core UX/UI Design Skills",
+    skills: [
+      "User Research & Discovery (Interviews, Surveys, Personas, User Journeys)",
+      "Wireframing & Prototyping (Low-fidelity to High-fidelity)",
+      "Interaction Design & Micro-interactions",
+      "Information Architecture (IA) & Navigation Design",
+      "Usability Testing & Heuristic Evaluation",
+      "Responsive & Mobile-First Design",
+      "Design Systems & UI Component Libraries"
+    ]
+  },
+  {
+    category: "Tools & Software",
+    skills: [
+      "Figma (Primary tool for UI/UX design, prototyping, and collaboration)",
+      "Adobe Photoshop (Image editing, graphic design)",
+      "Adobe Illustrator (Vector graphics, icons, illustrations)",
+      "Hand Sketching / Wireframing (Rapid ideation & concept development)",
+      "Adobe Premiere Pro (Basic) (For simple video editing or motion concepts)",
+      "HTML & CSS (Basic) (Understanding of front-end constraints)"
+    ]
+  },
+  {
+    category: "Industry-Specific Expertise",
+    skills: [
+      "EdTech UX (Buddybee – Education consulting platform)",
+      "Enterprise UX (ERP Systems) (Nectar Beezness – Inventory, sales, approvals)",
+      "AI-Powered Recruitment UX (Job APP – Employer-candidate matching)",
+      "Sustainability & E-commerce UX (NetZero – Solar marketplace)"
+    ]
+  },
+  {
+    category: "Soft Skills",
+    skills: [
+      "Problem-Solving & Analytical Thinking",
+      "Collaboration with Developers & Stakeholders",
+      "User-Centered Design Mindset",
+      "Adaptability Across Industries"
+    ]
+  }
 ];
 
 // experience
