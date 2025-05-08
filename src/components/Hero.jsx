@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { HERO_CONTENT, HOW_I_HELP } from "../constants/index";
+import { HERO_CONTENT } from "../constants/index";
 
 const Container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -11,11 +11,18 @@ const Container = (delay) => ({
 });
 
 const Hero = () => {
+  const handleContact = () => {
+    window.open(
+      "https://mail.google.com/mail/?view=cm&fs=1&to=mimtoos15@gmail.com",
+      "_blank"
+    );
+  };
+
   return (
     <div className="w-full border-b border-neutral-800 pb-16 lg:mb-10 px-4">
       <div className="flex flex-wrap w-full">
         <div className="w-full  ">
-          <div className="flex flex-col items-center lg:items-start">
+          <div className="flex flex-col items-center md:items-start lg:items-start">
             <motion.h1
               variants={Container(0)}
               initial="hidden"
@@ -28,9 +35,9 @@ const Hero = () => {
               variants={Container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2  tracking-tighter w-100 font-light"
+              className="my-2 mb-6 tracking-tighter w-100 font-light"
             >
-              <p className=" text-lg font-bold mb-4">{HERO_CONTENT}</p>
+              <p className=" text-lg  mb-5">{HERO_CONTENT}</p>
               <p className="  text-gray-400">
                 I specialize in transforming complex workflows into intuitive
                 digital experiences. My toolkit includes end-to-end UX design
@@ -47,7 +54,12 @@ const Hero = () => {
                 prioritizing usability and business goals."
               </p>
             </motion.p>
-            
+            <button
+              onClick={handleContact}
+              className="bg-[#0866FF] text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition duration-300"
+            >
+              Contact Me
+            </button>
           </div>
         </div>
       </div>
