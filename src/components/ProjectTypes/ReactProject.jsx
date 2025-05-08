@@ -1,104 +1,71 @@
-import React from 'react';
-import react1 from '../../images/react/react1.png';
-import react2 from '../../images/react/react2.png';
-import react3 from '../../images/react/react3.png';
-import react4 from '../../images/react/react4.png';
-import react5 from '../../images/react/react5.png';
-import react6 from '../../images/react/react6.png';
-import { AiOutlineFundView } from 'react-icons/ai';
+import React from "react";
+import web1 from "../../images/web/web1.png";
+import web2 from "../../images/web/web2.png";
+import web3 from "../../images/web/web3.png";
+import web4 from "../../images/web/web4.png";
+import web5 from "../../images/web/web5.png";
 
+const projectData = [
+  {
+    title: "E-Commerce seller Profile",
+    imageUrl: web1,
+    link: "https://www.behance.net/gallery/133555985/E-Commerce-seller-Profile",
+  },
+  {
+    title: "E Commerce Website",
+    imageUrl: web2,
+    link: "https://www.behance.net/gallery/110931325/E-Commerce-Website",
+  },
+  {
+    title: "Online Consultancy to study abroad Website",
+    imageUrl: web3,
+    link: "https://www.behance.net/gallery/133703837/Online-Consultancy-to-study-abroad-Website",
+  },
+  {
+    title: "Gym Fitness Web UI Design",
+    imageUrl: web4,
+    link: "https://www.behance.net/gallery/103639317/Gym-Fitness-Web-UI-Design",
+  },
+  {
+    title: "Digital Marketing Web UI Design",
+    imageUrl: web5,
+    link: "https://www.behance.net/gallery/103638901/Digital-Marketing-Web-UI-Design",
+  },
+];
 
 const ReactProject = () => {
-    return (
-        <div className='mx-auto container my-10' >
-            <div className='grid lg:grid-cols-3 gap-8  md:grid-cols-2 h-full' >
-                {/* 1st */}
-                <div className="card cardStyle bg-base-100 shadow-xl h-full">
-                    <figure><img src={react1} alt="Shoes" /></figure>
-                    <div className="card-body">
-                        <h2 className="card-title"> Auto Repair Services </h2>
-                            <div className="card-actions justify-end">
-                                <a href="https://moduleten-f3434.web.app/"  target="_blank" >
-                                    <button className="btn btn-outline btn-sm border-4 mt-6">
-                                        <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
-                                    </button>
-                                </a>
-                            </div>
-                    </div>               
+  return (
+    <div>
+      <div className="mx-auto  container my-10">
+        {/* element */}
+        <div className="grid lg:grid-cols-3 gap-5  md:grid-cols-2 h-full"></div>
+        <section className="py-16 px-6 bg-neutral-950">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {projectData.map((project, index) => (
+              <a
+                key={index}
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative group block overflow-hidden rounded-md shadow-lg"
+              >
+                <img
+                  src={project.imageUrl}
+                  alt={project.title}
+                  className="w-full h-60 object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-cyan-600 bg-opacity-90 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <p className="text-white text-lg font-semibold">
+                    {project.title}
+                  </p>
                 </div>
-                {/* 2nd */}
-                <div className="card cardStyle bg-base-100 shadow-xl h-full">
-                    <figure><img src={react2} alt="Shoes" /></figure>
-                    <div className="card-body">
-                        <h2 className="card-title"> Ema-Jhon </h2>
-                            <div className="card-actions justify-end">
-                                <a href="https://webproject-94b72.web.app/"  target="_blank" >
-                                    <button className="btn btn-outline btn-sm border-4 mt-6">
-                                        <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
-                                    </button>
-                                </a>
-                            </div>
-                    </div>               
-                </div>
-                {/* 3rd */}
-                <div className="card cardStyle bg-base-100 shadow-xl h-full">
-                    <figure><img src={react3} alt="Shoes" /></figure>
-                    <div className="card-body">
-                        <h2 className="card-title"> Medi-Care-Medicine-Shop </h2>
-                            <div className="card-actions justify-end">
-                                <a href="https://medicinesite.web.app/"  target="_blank" >
-                                    <button className="btn btn-outline btn-sm border-4 mt-6">
-                                        <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
-                                    </button>
-                                </a>
-                            </div>
-                    </div>               
-                </div>
-                {/* 4th */}
-                <div className="card cardStyle bg-base-100 shadow-xl h-full">
-                    <figure><img src={react4} alt="Shoes" /></figure>
-                    <div className="card-body">
-                        <h2 className="card-title"> EduCare </h2>
-                            <div className="card-actions justify-end">
-                                <a href="https://elegant-sunshine-612c50.netlify.app/"  target="_blank" >
-                                    <button className="btn btn-outline btn-sm border-4 mt-6">
-                                        <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
-                                    </button>
-                                </a>
-                            </div>
-                    </div>               
-                </div>
-                {/* 5th */}
-                <div className="card cardStyle bg-base-100 shadow-xl h-full">
-                    <figure><img src={react5} alt="Shoes" /></figure>
-                    <div className="card-body">
-                        <h2 className="card-title"> Restaurant (SPA) </h2>
-                            <div className="card-actions justify-end">
-                                <a href="https://zesty-lollipop-7b38b1.netlify.app/"  target="_blank" >
-                                    <button className="btn btn-outline btn-sm border-4 mt-6">
-                                        <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
-                                    </button>
-                                </a>
-                            </div>
-                    </div>               
-                </div>
-                {/* 6th */}
-                <div className="card cardStyle bg-base-100 shadow-xl h-full">
-                    <figure><img src={react6} alt="Shoes" /></figure>
-                    <div className="card-body">
-                        <h2 className="card-title"> DECATHLON-Sports-Shop (SPA) </h2>
-                            <div className="card-actions justify-end">
-                                <a href="https://endearing-buttercream-ae39c4.netlify.app/"  target="_blank" >
-                                    <button className="btn btn-outline btn-sm border-4 mt-6">
-                                        <span className='flex px-2'><AiOutlineFundView className='mr-2' size={16} /> view  </span> 
-                                    </button>
-                                </a>
-                            </div>
-                    </div>               
-                </div>
-            </div>
-        </div>
-    );
+              </a>
+            ))}
+          </div>
+        </section>
+      </div>
+    </div>
+  );
 };
 
 export default ReactProject;
