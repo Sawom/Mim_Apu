@@ -61,7 +61,7 @@ const Hero = () => {
             </motion.p>
             <button
               onClick={handleContact}
-              className="bg-[#0866FF] text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition duration-300"
+              className="bg-[#177BFF] text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition duration-300"
             >
               Contact Me
             </button>

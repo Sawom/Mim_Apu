@@ -69,9 +69,10 @@ const Sidebar = ({ onClose }) => {
               href={`#${id}`}
               className={`transition-colors ${
                 activeSection === id
-                  ? "text-cyan-400 font-bold"
+                  ? " font-bold"
                   : "text-white hover:text-gray-300"
               }`}
+              style={activeSection === id ? { color: "#177BFF" } : {}}
             >
               {label}
             </a>
