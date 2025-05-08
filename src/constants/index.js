@@ -1,5 +1,5 @@
 // description
-export const HERO_CONTENT = `Great design isn’t just about aesthetics—it’s about solving problems that boost revenue, user retention, and brand loyalty. With my background in marketing (Banglalink, LAUGFS Gas) and UX/UI design (Honeybee IoT), I bridge the gap between user needs and business goals.`;
+export const HERO_CONTENT = `Great design isn’t just about aesthetics—it’s about solving problems that boost revenue, user retention, and brand loyalty. I bridge the gap between user needs and business goals.`;
 
 // how can i help
 export const HOW_I_HELP = [

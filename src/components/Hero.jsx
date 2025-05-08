@@ -24,30 +24,30 @@ const Hero = () => {
             >
               Hello, I am Jannatul Ferdousi; your UX Designer
             </motion.h1>
-            {/* <motion.span variants={Container(0.5)} initial="hidden" animate="visible" className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">Web Developer</motion.span> */}
             <motion.p
               variants={Container(1)}
               initial="hidden"
               animate="visible"
               className="my-2  tracking-tighter w-100 font-light"
             >
-              {HERO_CONTENT}
+              <p className=" text-lg font-bold mb-4">{HERO_CONTENT}</p>
+              <p className="  text-gray-400">
+                I specialize in transforming complex workflows into intuitive
+                digital experiences. My toolkit includes end-to-end UX design
+                <b className="text-white mx-2">
+                  (research → prototyping → testing)
+                </b>
+                , UI design in <b className="text-white">Figma</b> , and basic
+                front-end knowledge (HTML/CSS) to ensure feasible,
+                developer-friendly designs. I’ve designed for
+                <b className="text-white mx-2">EdTech</b>,
+                <b className="text-white mx-2">ERP systems</b>,
+                <b className="text-white mx-2">AI recruitment</b>, and
+                <b className="text-white mx-2">sustainable energy</b> , always
+                prioritizing usability and business goals."
+              </p>
             </motion.p>
-            <motion.p
-              variants={Container(1)}
-              initial="hidden"
-              animate="visible"
-              className="my-2 py-8 tracking-tighter w-100 font-light"
-            >
-              <p className="mb-4 text-2xl font-bold">How can I help?</p>
-              <div className="space-y-4 text-base leading-relaxed">
-                {HOW_I_HELP.map((point, index) => (
-                  <p key={index} className="flex items-start">
-                    {point}
-                  </p>
-                ))}
-              </div>
-            </motion.p>
+            
           </div>
         </div>
       </div>

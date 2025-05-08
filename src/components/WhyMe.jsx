@@ -14,6 +14,9 @@ const WhyMe = () => {
         Why Me
       </motion.h2>
       <div className=" py-8 px-6">
+        <h3 className="text-xl font-bold mb-4">
+          What Makes My UX Approach Unique:
+        </h3>
         <p className="text-lg text-white mb-12">
           I design solutions users love, businesses profit from, and developers
           can actually build – proven across EdTech, ERP, and marketplace
