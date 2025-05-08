@@ -19,7 +19,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="w-full border-b border-neutral-800 pb-16 lg:mb-10 px-4">
+    <div className="w-full font-roboto border-b border-neutral-800 pb-16 lg:mb-10 px-4">
       <div className="flex flex-wrap w-full">
         <div className="w-full  ">
           <div className="flex flex-col items-start md:items-start lg:items-start">
@@ -29,7 +29,7 @@ const Hero = () => {
               animate="visible"
               className="pb-8 lg:text-3xl md:text-2xl text-2xl font-thin tracking-tight lg:mt-16 "
             >
-              <p className="mb-2 mt-2">Jannatul Ferdousi (Mim)</p>
+              <p className="mb-2 mt-4">Jannatul Ferdousi (Mim)</p>
               <p className="mb-2">UX Lead @ Honeybee IoT Limited </p>
               <p>
                 Product Designer | Business Strategist | Cross-Disciplinary

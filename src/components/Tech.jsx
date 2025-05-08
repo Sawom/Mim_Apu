@@ -3,12 +3,12 @@ import { SKILLS } from "../constants";
 
 const Tech = () => {
   return (
-    <div className="border-b border-neutral-800 pb-4">
+    <div className="border-b font-roboto border-neutral-800 pb-4">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1.5 }}
-        className="mt-20 mb-10 text-center text-4xl"
+        className="mt-20 mb-10 text-center text-3xl"
       >
         Skills
       </motion.h2>

@@ -72,7 +72,7 @@ const projectData = [
 const Mern = () => {
   return (
     <div>
-      <div className="mx-auto  container my-10">
+      <div className="mx-auto font-roboto container my-10">
         {/* element */}
         <div className="grid lg:grid-cols-3 gap-5  md:grid-cols-2 h-full"></div>
         <section className="py-16 px-6 bg-neutral-950">

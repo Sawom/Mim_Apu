@@ -44,7 +44,7 @@ const processSteps = [
 
 const WorkProcess = () => {
   return (
-    <div className="border-b border-neutral-800 pb-4">
+    <div className="border-b font-roboto border-neutral-800 pb-4">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}

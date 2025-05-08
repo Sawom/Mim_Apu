@@ -51,10 +51,10 @@ const App = () => {
 
           {/* Main Content */}
           <main className="ml-0 lg:ml-72 flex-1 px-6 md:px-10 lg:px-16 xl:px-24 max-w-7xl mx-auto text-neutral-300 selection:bg-cyan-300 selection:text-cyan-900">
-            <section>
+            <section id="home">
               <Hero />
             </section>
-            <section>
+            <section id="whyme">
               <WhyMe />
             </section>
             <section id="skills">
@@ -78,8 +78,9 @@ const App = () => {
             <section id="education">
               <Education />
             </section>
-
-            <Contact />
+            <section id="contact">
+              <Contact />
+            </section>
           </main>
         </div>
       </div>

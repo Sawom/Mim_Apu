@@ -1,15 +1,6 @@
 // description
 export const HERO_CONTENT = `Great design isn’t just about aesthetics—it’s about solving problems that boost revenue, user retention, and brand loyalty. I bridge the gap between user needs and business goals.`;
 
-// how can i help
-export const HOW_I_HELP = [
-  "✔ Increase Conversions – I design intuitive flows that reduce drop-offs (like in Buddybee, an education app with 200K+ downloads).",
-  "✔ Save Development Costs – My thorough research and prototyping prevent costly post-launch fixes.",
-  "✔ Enhance Brand Trust – Clean, professional UIs (like Nectar Beezness ERP) elevate credibility.",
-  "✔ Leverage Data + Creativity – My marketing expertise ensures designs aren’t just pretty—they drive engagement and sales.",
-  "I’ve helped startups and enterprises launch successful apps, streamline SaaS dashboards (Agadhir Solar), and refine AI-powered tools—all with measurable impact. Let’s build a product your users love AND your business profits from."
-];
-
 export const WhyMeData = [
   {
     title: "Research-First Designer",

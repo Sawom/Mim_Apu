@@ -2,11 +2,14 @@ import React, { useEffect, useState } from "react";
 import img from "../images/mim.jpg";
 
 const sections = [
+  { id: "home", label: "Home" },
+  { id: "whyme", label: "Why Me?" },
   { id: "skills", label: "Skills" },
   { id: "process", label: "Work Process" },
   { id: "experience", label: "Experience" },
   { id: "projects", label: "Projects" },
   { id: "education", label: "Education" },
+  { id: "contact", label: "Contact" },
 ];
 
 const Sidebar = ({ onClose }) => {
@@ -42,7 +45,7 @@ const Sidebar = ({ onClose }) => {
   }, []);
 
   return (
-    <div className="flex flex-col justify-between h-screen w-72 bg-gray-900 text-white py-6 overflow-y-auto">
+    <div className="flex  flex-col font-roboto justify-between h-screen w-72 bg-gray-900 text-white py-6 overflow-y-auto">
       <div>
         {/* Close Button on Small & Medium Devices */}
         <div className="lg:hidden flex justify-end px-4">
