@@ -12,6 +12,7 @@ import ReactProject from "./components/ProjectTypes/ReactProject";
 import Projects from "./components/Projects";
 import Sidebar from "./components/Sidebar";
 import Tech from "./components/Tech";
+import WhyMe from "./components/WhyMe";
 import WorkProcess from "./components/WorkProcess";
 
 const App = () => {
@@ -50,7 +51,12 @@ const App = () => {
 
           {/* Main Content */}
           <main className="ml-0 lg:ml-72 flex-1 px-6 md:px-10 lg:px-16 xl:px-24 max-w-7xl mx-auto text-neutral-300 selection:bg-cyan-300 selection:text-cyan-900">
-            <Hero />
+            <section>
+              <Hero />
+            </section>
+            <section>
+              <WhyMe />
+            </section>
             <section id="skills">
               <Tech />
             </section>

@@ -10,6 +10,25 @@ export const HOW_I_HELP = [
   "I’ve helped startups and enterprises launch successful apps, streamline SaaS dashboards (Agadhir Solar), and refine AI-powered tools—all with measurable impact. Let’s build a product your users love AND your business profits from."
 ];
 
+export const WhyMeData = [
+  {
+    title: "Research-First Designer",
+    description: "I uncover real user pain points to create solutions that work for both users and business goals."
+  },
+  {
+    title: "Business-Savvy UX",
+    description: "My customer service and marketing background ensures designs drive growth while keeping experiences seamless."
+  },
+  {
+    title: "Developer-Friendly Partner",
+    description: "I bridge design and development with clear handoffs, specs, and ongoing support to ensure flawless execution."
+  },
+  {
+    title: "Cross-Functional Team Player",
+    description: "Whether collaborating with PMs, engineers, or stakeholders, I align teams around user-centered solutions."
+  }
+];
+
 // contacts
 export const CONTACT = {
   address: "Mirpur , Dhaka ",
