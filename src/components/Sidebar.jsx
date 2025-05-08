@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import img from "../images/mim.jpg";
 
 const sections = [
@@ -81,18 +82,22 @@ const Sidebar = ({ onClose }) => {
       </div>
       <div className="mt-10 text-center text-sm text-gray-400 px-4">
         <div className="flex justify-center gap-4 mb-2">
-          <a href="#" className="hover:text-white">
-            📘
-          </a>
-          <a href="#" className="hover:text-white">
-            🎯
-          </a>
-          <a href="#" className="hover:text-white">
-            📺
-          </a>
-          <a href="#" className="hover:text-white">
-            💼
-          </a>
+          <div className="flex space-x-4">
+            <a
+              href="https://www.facebook.com/ferdousi.mim.947741/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebookF className="text-white text-xl" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/jannatul-ferdousi-a037b0110/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedinIn className="text-white text-xl" />
+            </a>
+          </div>
         </div>
         <p>© 2025 Jannatul Ferdousi</p>
       </div>
