@@ -22,14 +22,19 @@ const Hero = () => {
     <div className="w-full border-b border-neutral-800 pb-16 lg:mb-10 px-4">
       <div className="flex flex-wrap w-full">
         <div className="w-full  ">
-          <div className="flex flex-col items-center md:items-start lg:items-start">
+          <div className="flex flex-col items-start md:items-start lg:items-start">
             <motion.h1
               variants={Container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-8 md:text-3xl text-2xl font-thin tracking-tight lg:mt-16 lg:text-4xl"
+              className="pb-8 lg:text-3xl md:text-2xl text-2xl font-thin tracking-tight lg:mt-16 "
             >
-              Hello, I am Jannatul Ferdousi; your UX Designer
+              <p className="mb-2 mt-2">Jannatul Ferdousi (Mim)</p>
+              <p className="mb-2">UX Lead @ Honeybee IoT Limited </p>
+              <p>
+                Product Designer | Business Strategist | Cross-Disciplinary
+                Problem Solver
+              </p>
             </motion.h1>
             <motion.p
               variants={Container(1)}

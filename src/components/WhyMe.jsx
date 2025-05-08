@@ -11,7 +11,7 @@ const WhyMe = () => {
         transition={{ duration: 1.5 }}
         className="mt-20 mb-10 text-center text-4xl"
       >
-        Why Me
+        Why Me?
       </motion.h2>
       <div className=" py-8 px-6">
         <h3 className="text-xl font-bold mb-4">
