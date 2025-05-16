@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { HERO_CONTENT } from "../constants/index";
 
 const Container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -27,45 +26,34 @@ const Hero = () => {
               variants={Container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-8 lg:text-3xl md:text-2xl text-2xl font-thin tracking-tight lg:mt-16 "
+              className="pb-8 tracking-tight lg:mt-16 "
             >
-              <p className="mb-2 mt-4">HELLO</p>
-              <p className="mb-2">I AM YOUR UX </p>
-              <p className="mb-2">CONSULTANT</p>
-              <p>
-                <span>
-                  I am Jannatul Ferdousi,Ux lead @ Honeybee IOT Limited.
-                  I design digital experiences that drive growth—from the 
-                </span> 
-                <span>Buddybee website & APP</span>  to <span>Nectar Beezness App (ERP 
-                Solution)</span> ,an <span>AI recruitment Job APP, Netzero app(WIP) &</span>  
-                and brand identities for startups and enterprises.I bridge
-                <span>vision and success</span>  by designing visually powerful products
-                —where <span>user love</span>  meets <span>business results</span> .
-
+              <p className="mb-2 mt-4 lg:text-6xl md:text-4xl text-3xl">
+                HELLO
               </p>
+              <p className="mb-2 lg:text-4xl md:text-3xl text-2xl">I AM YOUR UX </p>
+              <p className="mb-2 lg:text-5xl md:text-4xl text-3xl">CONSULTANT</p>
             </motion.h1>
             <motion.p
               variants={Container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 mb-6 tracking-tighter w-100 font-light"
+              className="my-2 mb-6 tracking-tighter w-100"
             >
-              <p className=" text-lg  mb-5">{HERO_CONTENT}</p>
-              <p className="  text-gray-400">
-                I specialize in transforming complex workflows into intuitive
-                digital experiences. My toolkit includes end-to-end UX design
-                <b className="text-white mx-2">
-                  (research → prototyping → testing)
-                </b>
-                , UI design in <b className="text-white">Figma</b> , and basic
-                front-end knowledge (HTML/CSS) to ensure feasible,
-                developer-friendly designs. I’ve designed for
-                <b className="text-white mx-2">EdTech</b>,
-                <b className="text-white mx-2">ERP systems</b>,
-                <b className="text-white mx-2">AI recruitment</b>, and
-                <b className="text-white mx-2">sustainable energy</b> , always
-                prioritizing usability and business goals."
+              <p>
+                <span className="typography-roboto2">
+                  I am Jannatul Ferdousi,Ux lead @ Honeybee IOT Limited. I
+                  design digital experiences that drive growth—from the
+                </span>
+                <span className="typography-roboto mx-1">
+                  Buddybee website & APP
+                </span>
+                <span className="mx-1 typography-roboto2"> to </span> <span className="typography-roboto">Nectar Beezness App (ERP Solution), </span> <span className="typography-roboto2 mx-1">an </span> 
+                <span className="typography-roboto">AI recruitment Job APP, Netzero app(WIP) &</span>
+                <span className="typography-roboto2 mx-2">and brand identities for startups and enterprises.I bridge</span> 
+                <span className="typography-roboto">vision and success</span> <span className="typography-roboto2">by designing visually powerful
+                products —where</span>  <span className="typography-roboto mx-1">user love</span> <span className="typography-roboto2 mx-1">meets </span>  
+                <span className="typography-roboto">business results.</span>
               </p>
             </motion.p>
             <button

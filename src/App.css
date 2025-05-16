@@ -7,3 +7,18 @@ body {
   font-family: Arial, sans-serif;
   overflow-x: hidden;
 }
+
+.typography-roboto {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 23.4px;
+  letter-spacing: 5%;
+}
+
+.typography-roboto2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 23.4px;
+  letter-spacing: 5%;
+  color: #888888;
+}
