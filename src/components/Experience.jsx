@@ -17,9 +17,9 @@ const Experience = () => {
       <section className="py-4 px-6 bg-neutral-950 text-white">
         <div className="space-y-10">
           {EXPERIENCE.map((job, index) => (
-            <div key={index} className="border-l-4 border-[#177BFF] pl-6">
+            <div key={index} className="border-l-4 border-[#0077FF] pl-6">
               <h3 className="text-2xl font-semibold">{job.title}</h3>
-              <p className="text-lg text-[#177BFF]">{job.company}</p>
+              <p className="text-lg text-[#0077FF]">{job.company}</p>
               <p className="text-lg text-gray-400 mb-4">{job.duration}</p>
               {job.details.length > 0 && (
                 <ul className="list-disc list-inside space-y-2 text-lg text-neutral-300">

@@ -1,4 +1,3 @@
-import React from "react";
 import web1 from "../../images/web/web1.png";
 import web2 from "../../images/web/web2.png";
 import web3 from "../../images/web/web3.png";
@@ -54,7 +53,7 @@ const ReactProject = () => {
                   alt={project.title}
                   className="w-full h-60 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-                <div className="absolute inset-0 bg-[#177BFF] bg-opacity-90 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute inset-0 bg-[#0077FF] bg-opacity-90 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <p className="text-white text-lg font-semibold">
                     {project.title}
                   </p>

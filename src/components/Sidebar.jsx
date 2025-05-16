@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import img from "../images/mim.jpg";
 
@@ -73,7 +73,7 @@ const Sidebar = ({ onClose }) => {
                   ? " font-bold"
                   : "text-white hover:text-gray-300"
               }`}
-              style={activeSection === id ? { color: "#177BFF" } : {}}
+              style={activeSection === id ? { color: "#0077FF" } : {}}
             >
               {label}
             </a>

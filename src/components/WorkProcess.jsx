@@ -59,7 +59,7 @@ const WorkProcess = () => {
             {processSteps.map((step, index) => (
               <div key={index} className=" gap-4">
                 <div
-                  className="bg-[#177BFF] p-3 rounded-md mb-4"
+                  className="bg-[#0077FF] p-3 rounded-md mb-4"
                   style={{ width: "50px" }}
                 >
                   {step.icon}

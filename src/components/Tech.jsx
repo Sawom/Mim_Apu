@@ -15,7 +15,7 @@ const Tech = () => {
       <div className=" py-8 px-6">
         <div className="space-y-10">
           {SKILLS.map((section, index) => (
-            <div key={index} className="border-l-4 border-[#177BFF] pl-6">
+            <div key={index} className="border-l-4 border-[#0077FF] pl-6">
               <h3 className="text-lg font-bold text-white mb-2">
                 {section.category}
               </h3>
