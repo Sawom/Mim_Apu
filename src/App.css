@@ -22,3 +22,15 @@ body {
   letter-spacing: 5%;
   color: #888888;
 }
+
+.neon-cursor {
+  position: fixed;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #0077ff;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 6px #0077ff, 0 0 12px #0077ff, 0 0 24px #0077ff;
+}

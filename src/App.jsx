@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import img from "../src/images/mim.jpg";
 import "./App.css";
@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Hero from "./components/Hero";
+import NeonCursor from "./components/NeonCursor";
 import Mern from "./components/ProjectTypes/Mern";
 import PSDtoHTML from "./components/ProjectTypes/PSDtoHTML";
 import ReactProject from "./components/ProjectTypes/ReactProject";
@@ -20,6 +21,7 @@ const App = () => {
 
   return (
     <Router>
+      <NeonCursor />
       <div className="flex min-h-screen overflow-x-hidden">
         {/* Sidebar - visible on large devices, toggle for small & medium */}
         <div
