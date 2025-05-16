@@ -34,3 +34,7 @@ body {
   transform: translate(-50%, -50%);
   box-shadow: 0 0 6px #0077ff, 0 0 12px #0077ff, 0 0 24px #0077ff;
 }
+
+.hand{
+  width: 50px;
+}

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
-import img from "../images/mim.jpg";
+import img from "../images/app/mim.jpeg";
 
 const sections = [
   { id: "home", label: "Home" },

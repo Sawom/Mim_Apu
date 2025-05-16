@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import img from "../src/images/mim.jpg";
+import img from "../src/images/app/mim.jpeg";
 import "./App.css";
 import Contact from "./components/Contact";
 import Education from "./components/Education";

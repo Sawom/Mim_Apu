@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import hand from '../images/app/hand.svg'
 
 const Container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -28,8 +29,8 @@ const Hero = () => {
               animate="visible"
               className="pb-8 tracking-tight lg:mt-16 "
             >
-              <p className="mb-2 mt-4 lg:text-6xl md:text-4xl text-3xl">
-                HELLO
+              <p className="mb-2 flex mt-4 lg:text-6xl md:text-4xl text-3xl">
+               <img src={hand} className="hand " alt="" /> <span className="mx-3">HELLO</span> 
               </p>
               <p className="mb-2 lg:text-4xl md:text-3xl text-2xl">I AM YOUR UX </p>
               <p className="mb-2 lg:text-5xl md:text-4xl text-3xl">CONSULTANT</p>
