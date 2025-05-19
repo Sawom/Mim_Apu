@@ -4,20 +4,24 @@ export const HERO_CONTENT = `Great design isn’t just about aesthetics—it’s
 export const WhyMeData = [
   {
     title: "Research-First Designer",
-    description: "I uncover real user pain points to create solutions that work for both users and business goals."
+    description:
+      "I uncover real user pain points to create solutions that work for both users and business goals.",
   },
   {
     title: "Business-Savvy UX",
-    description: "My customer service and marketing background ensures designs drive growth while keeping experiences seamless."
+    description:
+      "My customer service and marketing background ensures designs drive growth while keeping experiences seamless.",
   },
   {
     title: "Developer-Friendly Partner",
-    description: "I bridge design and development with clear handoffs, specs, and ongoing support to ensure flawless execution."
+    description:
+      "I bridge design and development with clear handoffs, specs, and ongoing support to ensure flawless execution.",
   },
   {
     title: "Cross-Functional Team Player",
-    description: "Whether collaborating with PMs, engineers, or stakeholders, I align teams around user-centered solutions."
-  }
+    description:
+      "Whether collaborating with PMs, engineers, or stakeholders, I align teams around user-centered solutions.",
+  },
 ];
 
 // contacts
@@ -38,8 +42,8 @@ export const SKILLS = [
       "Information Architecture (IA) & Navigation Design",
       "Usability Testing & Heuristic Evaluation",
       "Responsive & Mobile-First Design",
-      "Design Systems & UI Component Libraries"
-    ]
+      "Design Systems & UI Component Libraries",
+    ],
   },
   {
     category: "Tools & Software",
@@ -49,8 +53,8 @@ export const SKILLS = [
       "Adobe Illustrator (Vector graphics, icons, illustrations)",
       "Hand Sketching / Wireframing (Rapid ideation & concept development)",
       "Adobe Premiere Pro (Basic) (For simple video editing or motion concepts)",
-      "HTML & CSS (Basic) (Understanding of front-end constraints)"
-    ]
+      "HTML & CSS (Basic) (Understanding of front-end constraints)",
+    ],
   },
   {
     category: "Industry-Specific Expertise",
@@ -58,8 +62,8 @@ export const SKILLS = [
       "EdTech UX (Buddybee – Education consulting platform)",
       "Enterprise UX (ERP Systems) (Nectar Beezness – Inventory, sales, approvals)",
       "AI-Powered Recruitment UX (Job APP – Employer-candidate matching)",
-      "Sustainability & E-commerce UX (NetZero – Solar marketplace)"
-    ]
+      "Sustainability & E-commerce UX (NetZero – Solar marketplace)",
+    ],
   },
   {
     category: "Soft Skills",
@@ -67,9 +71,9 @@ export const SKILLS = [
       "Problem-Solving & Analytical Thinking",
       "Collaboration with Developers & Stakeholders",
       "User-Centered Design Mindset",
-      "Adaptability Across Industries"
-    ]
-  }
+      "Adaptability Across Industries",
+    ],
+  },
 ];
 
 // experience
@@ -103,16 +107,21 @@ export const EDUCATION = [
   {
     degree: "MBA in Marketing",
     institution: "Southeast University",
-    date: "January 2019",
+    date: "Passing Year: 2019",
   },
   {
     degree: "BBA in Marketing",
     institution: "United International University",
-    date: "May 2013",
+    date: "Passing Year: 2013",
   },
   {
     degree: "H.S.C in Science",
     institution: "College of Development Alternative (CODA)",
-    date: "January 2007",
+    date: "Passing Year: 2007",
+  },
+  {
+    degree: "S.S.C in Science",
+    institution: "Viqarunnisa Noon School & College",
+    date: "Passing Year: 2005",
   },
 ];

@@ -14,10 +14,10 @@ const Experience = () => {
       </motion.h1>
 
       {/* details experience */}
-      <section className="py-4 px-6 bg-neutral-950 text-white">
+      <section className="py-4 px-6 text-white">
         <div className="space-y-10">
           {EXPERIENCE.map((job, index) => (
-            <div key={index} className="border-l-4 border-[#0077FF] pl-6">
+            <div key={index} className="border-l-[1px] border-[#0077FF] pl-6">
               <h3 className="text-2xl font-semibold">{job.title}</h3>
               <p className="text-lg text-[#0077FF]">{job.company}</p>
               <p className="text-lg text-gray-400 mb-4">{job.duration}</p>

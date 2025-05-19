@@ -6,7 +6,6 @@ import Contact from "./components/Contact";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Hero from "./components/Hero";
-import NeonCursor from "./components/NeonCursor";
 import Mern from "./components/ProjectTypes/Mern";
 import PSDtoHTML from "./components/ProjectTypes/PSDtoHTML";
 import ReactProject from "./components/ProjectTypes/ReactProject";
@@ -15,13 +14,14 @@ import Sidebar from "./components/Sidebar";
 import Tech from "./components/Tech";
 import WhyMe from "./components/WhyMe";
 import WorkProcess from "./components/WorkProcess";
+import BubbleCursor from "./components/BubbleCursor";
 
 const App = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
     <Router>
-      <NeonCursor />
+      <BubbleCursor />
       <div className="flex min-h-screen overflow-x-hidden">
         {/* Sidebar - visible on large devices, toggle for small & medium */}
         <div
@@ -33,7 +33,7 @@ const App = () => {
         </div>
 
         {/* Main content area */}
-        <div className="flex-1 flex flex-col min-h-screen bg-neutral-950  ">
+        <div className="flex-1 flex flex-col min-h-screen bg-black  ">
           {/* Show toggle header always on non-large screens */}
           <div className="lg:hidden flex items-center justify-between bg-black p-3 text-white sticky top-0 z-30 shadow-md">
             <div className="flex items-center gap-3">

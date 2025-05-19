@@ -24,7 +24,7 @@ const WhyMe = () => {
         </p>
         <div className="space-y-10">
           {WhyMeData.map((item, index) => (
-            <div key={index} className="border-l-4 border-[#0077FF] pl-6">
+            <div key={index} className="border-l-[1px] border-[#0077FF] pl-6">
               <h3 className="text-lg font-bold text-white mb-2">
                 {item.title}
               </h3>

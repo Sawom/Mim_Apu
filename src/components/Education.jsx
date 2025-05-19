@@ -15,13 +15,10 @@ const Education = () => {
         Education
       </motion.h2>
 
-      <section className="py-12 px-6 bg-neutral-950 text-white">
-        <h2 className="text-2xl font-semibold mb-6 border-b border-neutral-700 pb-2">
-          Education
-        </h2>
+      <section className="py-12 px-6 text-white">
         <div className="space-y-10">
           {EDUCATION.map((edu, index) => (
-            <div key={index} className="border-l-4 border-[#177BFF] pl-6">
+            <div key={index} className="border-l-[1px] border-[#177BFF] pl-6">
               <h3 className="text-2xl font-medium">{edu.degree}</h3>
               <p className="text-lg text-[#177BFF]">{edu.institution}</p>
               <p className="text-lg text-gray-400">{edu.date}</p>

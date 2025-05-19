@@ -38,7 +38,7 @@ const ReactProject = () => {
       <div className="mx-auto font-roboto container my-10">
         {/* element */}
         <div className="grid lg:grid-cols-3 gap-5  md:grid-cols-2 h-full"></div>
-        <section className="py-16 px-6 bg-neutral-950">
+        <section className="py-16 px-6 ">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {projectData.map((project, index) => (
               <a
